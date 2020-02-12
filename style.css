@@ -13,9 +13,10 @@
     margin: 0px;
 }
 
-.description_weather {
-    margin: 0px;
+.general_weather{
+    margin: 0;
 }
+
 
 .weatherDetails {
     display: flex;
@@ -24,11 +25,37 @@
     align-items: center;
 }
 
-.weatherDetails p {
-    font-size: 80px;
+.icon-details {
+    display: flex;
+}
+.icon-details p {
+    font-size: 70px;
     margin: 0px;
+    color: black;
 }
 
-.weatherDetails span {
-    padding-bottom: 35px;
+.icon-details span {
+    padding-top: 10px;
+    color: black;
+}
+
+.details{
+    margin-right: 70px;
+}
+
+form {
+    margin: 5px;
+}
+.submit{
+    font-size:20px;
+    color:white;
+    background:#638cb5;
+    border-radius:8px;
+    width:80px;
+    height:auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-text{
+    font-size: 15px;  
 }
