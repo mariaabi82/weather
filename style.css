@@ -70,4 +70,5 @@ textarea:focus, input:focus, input[type]:focus {
     height: 24px;  
     border: 1px solid grey;
     border-radius: 5px;
+    
 }
